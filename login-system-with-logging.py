@@ -4,7 +4,7 @@ logging.basicConfig(level=logging.INFO, filename="log_users.txt", filemode="w",
                    format="%(asctime)s - %(levelname)s - %(message)s")
 
 #logging.debug("Debug")
-#logging.info("User logged in")
+#logging.info("Logg in/ Signed in")
 #logging.warning("Warning")
 #logging.error("Database failed")
 #logging.critical("Critical")
