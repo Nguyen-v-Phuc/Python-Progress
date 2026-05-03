@@ -1,7 +1,7 @@
 import logging
 import json
 
-logging.basicConfig(level=logging.INFO, filename="log_users.txt", filemode="w",
+logging.basicConfig(level=logging.INFO, filename="log_users.txt", filemode="a",
                    format="%(asctime)s - %(levelname)s - %(message)s")
 
 #logging.debug("Debug")
