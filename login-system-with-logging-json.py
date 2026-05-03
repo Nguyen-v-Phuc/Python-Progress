@@ -79,7 +79,6 @@ def sign_in():
 
 #DON'T TOUCH
 def load():
-    #users = {}
     try:
         with open("users-infos-json.json", "r") as file:
             return json.load(file)
