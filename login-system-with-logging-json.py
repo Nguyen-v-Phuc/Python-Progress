@@ -1,3 +1,13 @@
+"""
+MÔ TẢ Ý TƯỞNG & CẤU TRÚC CHƯƠNG TRÌNH:
+- Ý tưởng: Xây dựng hệ thống đăng nhập/đăng ký bằng Python kết hợp mã hóa bảo mật và ghi log hoạt động.
+- Chức năng chính:
+  + Bảo mật: Mã hóa mật khẩu bằng bcrypt (salted hashing) trước khi lưu JSON.
+  + Lưu trữ: Duy trì dữ liệu người dùng qua file JSON, tự động load/save.
+  + Ghi log: Ghi nhật ký đăng ký, đăng nhập và lỗi file vào log_users.txt.
+  + Xử lý ngoại lệ: Catch FileNotFoundError khi đọc file dữ liệu.
+"""
+
 import logging
 import json
 import bcrypt
